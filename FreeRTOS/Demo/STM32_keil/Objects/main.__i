@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections
+-I \\Mac\Home\Documents\github\freertos\FreeRTOS\Demo\STM32_keil\RTE
+-I C:\Users\mac\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include
+-I "C:\Program Files\Keil_v5\ARM\CMSIS\Include"
+-D__UVISION_VERSION="514" -DSTM32F10X_MD
+-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d "main.c"
